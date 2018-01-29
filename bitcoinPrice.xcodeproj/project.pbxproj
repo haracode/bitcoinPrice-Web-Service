@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86FE14AE201E9B8900B8C35A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE14AD201E9B8900B8C35A /* AppDelegate.swift */; };
+		86FE14B0201E9B8900B8C35A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FE14AF201E9B8900B8C35A /* ViewController.swift */; };
+		86FE14B3201E9B8900B8C35A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86FE14B1201E9B8900B8C35A /* Main.storyboard */; };
+		86FE14B5201E9B8900B8C35A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86FE14B4201E9B8900B8C35A /* Assets.xcassets */; };
+		86FE14B8201E9B8900B8C35A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86FE14B6201E9B8900B8C35A /* LaunchScreen.storyboard */; };
+		F85C40262CC65F76DADEE66C /* Pods_bitcoinPrice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB668C93047D252E5CED9B24 /* Pods_bitcoinPrice.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2142E628D7C2146E2D47741E /* Pods-bitcoinPrice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcoinPrice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bitcoinPrice/Pods-bitcoinPrice.debug.xcconfig"; sourceTree = "<group>"; };
+		86FE14AA201E9B8900B8C35A /* bitcoinPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitcoinPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86FE14AD201E9B8900B8C35A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86FE14AF201E9B8900B8C35A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86FE14B2201E9B8900B8C35A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86FE14B4201E9B8900B8C35A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86FE14B7201E9B8900B8C35A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86FE14B9201E9B8900B8C35A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C585A7434B5F1EC9990F5D /* Pods-bitcoinPrice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitcoinPrice.release.xcconfig"; path = "Pods/Target Support Files/Pods-bitcoinPrice/Pods-bitcoinPrice.release.xcconfig"; sourceTree = "<group>"; };
+		AB668C93047D252E5CED9B24 /* Pods_bitcoinPrice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bitcoinPrice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86FE14A7201E9B8900B8C35A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85C40262CC65F76DADEE66C /* Pods_bitcoinPrice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86FE14A1201E9B8900B8C35A = {
+			isa = PBXGroup;
+			children = (
+				86FE14AC201E9B8900B8C35A /* bitcoinPrice */,
+				86FE14AB201E9B8900B8C35A /* Products */,
+				DEC11C36BAE5AABD87252C0A /* Pods */,
+				F8C827678819D9976CDD062E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86FE14AB201E9B8900B8C35A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86FE14AA201E9B8900B8C35A /* bitcoinPrice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86FE14AC201E9B8900B8C35A /* bitcoinPrice */ = {
+			isa = PBXGroup;
+			children = (
+				86FE14AD201E9B8900B8C35A /* AppDelegate.swift */,
+				86FE14AF201E9B8900B8C35A /* ViewController.swift */,
+				86FE14B1201E9B8900B8C35A /* Main.storyboard */,
+				86FE14B4201E9B8900B8C35A /* Assets.xcassets */,
+				86FE14B6201E9B8900B8C35A /* LaunchScreen.storyboard */,
+				86FE14B9201E9B8900B8C35A /* Info.plist */,
+			);
+			path = bitcoinPrice;
+			sourceTree = "<group>";
+		};
+		DEC11C36BAE5AABD87252C0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2142E628D7C2146E2D47741E /* Pods-bitcoinPrice.debug.xcconfig */,
+				A3C585A7434B5F1EC9990F5D /* Pods-bitcoinPrice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8C827678819D9976CDD062E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB668C93047D252E5CED9B24 /* Pods_bitcoinPrice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86FE14A9201E9B8900B8C35A /* bitcoinPrice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86FE14BC201E9B8900B8C35A /* Build configuration list for PBXNativeTarget "bitcoinPrice" */;
+			buildPhases = (
+				AF474E2E40DFE666DCA935EB /* [CP] Check Pods Manifest.lock */,
+				86FE14A6201E9B8900B8C35A /* Sources */,
+				86FE14A7201E9B8900B8C35A /* Frameworks */,
+				86FE14A8201E9B8900B8C35A /* Resources */,
+				BC8BD90806072AB399B31BE6 /* [CP] Embed Pods Frameworks */,
+				FE8E563FBEAADFB34FE60A16 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bitcoinPrice;
+			productName = bitcoinPrice;
+			productReference = 86FE14AA201E9B8900B8C35A /* bitcoinPrice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86FE14A2201E9B8900B8C35A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Greg Haranczyk";
+				TargetAttributes = {
+					86FE14A9201E9B8900B8C35A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 86FE14A5201E9B8900B8C35A /* Build configuration list for PBXProject "bitcoinPrice" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86FE14A1201E9B8900B8C35A;
+			productRefGroup = 86FE14AB201E9B8900B8C35A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86FE14A9201E9B8900B8C35A /* bitcoinPrice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86FE14A8201E9B8900B8C35A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FE14B8201E9B8900B8C35A /* LaunchScreen.storyboard in Resources */,
+				86FE14B5201E9B8900B8C35A /* Assets.xcassets in Resources */,
+				86FE14B3201E9B8900B8C35A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF474E2E40DFE666DCA935EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bitcoinPrice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC8BD90806072AB399B31BE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-bitcoinPrice/Pods-bitcoinPrice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bitcoinPrice/Pods-bitcoinPrice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE8E563FBEAADFB34FE60A16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bitcoinPrice/Pods-bitcoinPrice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86FE14A6201E9B8900B8C35A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FE14B0201E9B8900B8C35A /* ViewController.swift in Sources */,
+				86FE14AE201E9B8900B8C35A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86FE14B1201E9B8900B8C35A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86FE14B2201E9B8900B8C35A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86FE14B6201E9B8900B8C35A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86FE14B7201E9B8900B8C35A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86FE14BA201E9B8900B8C35A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86FE14BB201E9B8900B8C35A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86FE14BD201E9B8900B8C35A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2142E628D7C2146E2D47741E /* Pods-bitcoinPrice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K4SJ9KBT9;
+				INFOPLIST_FILE = bitcoinPrice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gharanczyk.bitcoinPrice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86FE14BE201E9B8900B8C35A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C585A7434B5F1EC9990F5D /* Pods-bitcoinPrice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K4SJ9KBT9;
+				INFOPLIST_FILE = bitcoinPrice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gharanczyk.bitcoinPrice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86FE14A5201E9B8900B8C35A /* Build configuration list for PBXProject "bitcoinPrice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FE14BA201E9B8900B8C35A /* Debug */,
+				86FE14BB201E9B8900B8C35A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86FE14BC201E9B8900B8C35A /* Build configuration list for PBXNativeTarget "bitcoinPrice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86FE14BD201E9B8900B8C35A /* Debug */,
+				86FE14BE201E9B8900B8C35A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86FE14A2201E9B8900B8C35A /* Project object */;
+}
